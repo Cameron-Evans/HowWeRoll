@@ -1,0 +1,22 @@
+Determine a random player to go first
+
+The first player will roll a pair of dice up to 3 times trying to maximize their score.
+They may end their turn after any of their rolls. "Locking in" their score.
+The number of rolls they used is the maximum number of rolls each subsequent player is allowed to use on their turns.
+Each subsequent player rolls similarly, but is allowed fewer than, or equal to the number of rolls the first player took.
+A player's score is always the value of the final throw of the dice. Meaning previous rolls are discarded.
+After each player has taken one turn (a full rotation of the table), the player with the lowest score loses.
+
+
+Scoreing follows as:
+21/12 -- Best possible, a "Mexico"
+66
+55
+44
+33
+22
+11
+6 {5,4,3,2,1}
+5 {4,3,2,1}
+4 {3,2,1}
+3 {2,1} a 31/13 being the worst possible
